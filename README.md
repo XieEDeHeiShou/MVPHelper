@@ -52,7 +52,7 @@
 
 ### 或者
 #### 第一步
-下载[MvpHelper_v2_3_release.jar](MVPHelper_v2_4_release.jar)
+下载[MvpHelper.jar](MVPHelper_v2_4.jar)
 或者前往 [releases](https://github.com/XieEDeHeiShou/MVPHelper/releases/latest)
 
 #### 第二步
@@ -105,6 +105,9 @@
 
 ## 更新日志
 ### v2.x版 -基于Intellij Open Api 实现 by [XieEDeHeiShou](https://github.com/XieEDeHeiShou)
++ 2018-09-25
+  + 修复对于 `a.contract.SampleContract` 使用时, 错误的删除了 `b.contract.SampleContract` 问题 (#29)
+  + MvpHelper_v2_4.jar
 + 2017-07-19
   + 修复潜在的NPE异常(#20)
   + MvpHelper_v2_3_release.jar
